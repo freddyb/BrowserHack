@@ -1,0 +1,29 @@
+/* hide things */
+div.jumbotron,
+  a[href="https://github.com/coolwanglu/browserhack"],
+  div#github-star {
+    display: none;
+}
+#browserhack-wrapper {
+  margin: 0px;
+}
+#browserhack-main {
+
+}
+ /* hide inventory/toolbar tempotatily */
+
+div#browserhack-sidebar {
+ display: none;
+}
+div#browserhack-toolbar {
+  display: none;
+  width: 10em;
+  right: 2em;
+}
+#browserhack-toolbar .btn {
+  padding: 0.6em;
+}
+.container {
+    padding: 0px;
+    margin: 0px;
+}
